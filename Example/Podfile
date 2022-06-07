@@ -1,0 +1,26 @@
+#source 'http://gitlab.yinyuebao.com/xxyy/client/ios/ArtPods/ArtPodRepo.git'
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+workspace 'MSBSoundProcess.xcworkspace'
+inhibit_all_warnings!        #忽略警告
+
+use_frameworks! :linkage => :static
+
+platform :ios, '10.0'
+# 以项目的方式依赖，而非target
+#install! 'cocoapods', :generate_multiple_pod_projects => true
+
+target 'MSBSoundProcess_Example' do
+  project 'MSBSoundProcess'
+  pod 'MSBSoundProcess', :path => '../'
+#  pod 'MSBTaskDownload'
+  pod 'OSAbility', :path => '../localPods/OSAbility'
+  
+  target 'MSBSoundProcess_Tests' do
+    inherit! :search_paths
+  end
+end
+
+target 'MSBAudio' do
+	project 'MSBAudio/MSBAudio'
+end

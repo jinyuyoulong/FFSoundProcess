@@ -1,0 +1,32 @@
+{
+  "name": "OSAbility",
+  "version": "0.1.0",
+  "summary": "A short description of OSAbility.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jinyuyoulong/OSAbility",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jinyuyoulong": "fan.jinlong@qq.com"
+  },
+  "source": {
+    "git": "http://gitlab.yinyuebao.com/xxyy/client/ios/ArtPods/custompods/osability.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "OSAbility/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Audio",
+      "source_files": "OSAbility/Classes/Audio/**/*"
+    }
+  ],
+  "swift_version": "5.0"
+}

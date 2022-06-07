@@ -1,0 +1,6 @@
+framework module msbaudioai {
+  umbrella header "msbaudioai.h"
+
+  export *
+  module * { export * }
+}

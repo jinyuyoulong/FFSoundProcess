@@ -1,0 +1,6 @@
+framework module MSBSoundProcess {
+  umbrella header "MSBSoundProcess-umbrella.h"
+
+  export *
+  module * { export * }
+}

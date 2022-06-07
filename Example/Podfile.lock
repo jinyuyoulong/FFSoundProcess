@@ -1,0 +1,31 @@
+PODS:
+  - MSBSoundProcess (0.5.5):
+    - OSAbility
+    - PFAudioLib
+  - OSAbility (0.1.0):
+    - OSAbility/Audio (= 0.1.0)
+  - OSAbility/Audio (0.1.0)
+  - PFAudioLib (0.1.4)
+
+DEPENDENCIES:
+  - MSBSoundProcess (from `../`)
+  - OSAbility (from `../localPods/OSAbility`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - PFAudioLib
+
+EXTERNAL SOURCES:
+  MSBSoundProcess:
+    :path: "../"
+  OSAbility:
+    :path: "../localPods/OSAbility"
+
+SPEC CHECKSUMS:
+  MSBSoundProcess: 50305db06ea1877b21ee3e32e9f2daddeb6daa7d
+  OSAbility: aeb3ad017e9d02699160dc602a76d8a0ae61cdbd
+  PFAudioLib: f173172ffc04787d261259e1e0bd5d6447e2a273
+
+PODFILE CHECKSUM: e8ac217187b46ac78cee458c842a4a8dd40c9c2e
+
+COCOAPODS: 1.11.2

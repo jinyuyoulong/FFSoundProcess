@@ -1,0 +1,6 @@
+framework module SoundProcess {
+  umbrella header "SoundProcess.h"
+
+  export *
+  module * { export * }
+}

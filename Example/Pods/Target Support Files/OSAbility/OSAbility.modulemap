@@ -1,0 +1,6 @@
+framework module OSAbility {
+  umbrella header "OSAbility-umbrella.h"
+
+  export *
+  module * { export * }
+}

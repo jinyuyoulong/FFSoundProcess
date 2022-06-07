@@ -1,0 +1,48 @@
+{
+  "name": "MSBSoundProcess",
+  "version": "0.5.5",
+  "summary": "A short description of MSBSoundProcess.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitlab.yinyuebao.com/xxyy/client/ios/ArtPods/MSBSoundProcess",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jinyuyoulong": "fan.jinlong@qq.com"
+  },
+  "source": {
+    "git": "http://gitlab.yinyuebao.com/xxyy/client/ios/ArtPods/MSBSoundProcess.git",
+    "tag": "0.5.5"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": [
+    "5.0"
+  ],
+  "source_files": "MSBSoundProcess/Classes/**/*",
+  "ios": {
+    "vendored_frameworks": "MSBSoundProcess/Frameworks/*.framework"
+  },
+  "resources": "MSBARService/Assets/*.tflite",
+  "libraries": "c++",
+  "dependencies": {
+    "PFAudioLib": [
+
+    ],
+    "OSAbility": [
+
+    ]
+  },
+  "static_framework": true,
+  "pod_target_xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=*]": "armv7"
+  },
+  "user_target_xcconfig": {
+    "ENABLE_BITCODE": "NO",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "swift_version": "5.0"
+}

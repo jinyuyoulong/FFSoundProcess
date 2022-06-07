@@ -1,0 +1,6 @@
+framework module Pods_MSBSoundProcess_Example {
+  umbrella header "Pods-MSBSoundProcess_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
